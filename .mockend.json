@@ -1,0 +1,203 @@
+{
+    "properties": {
+        "plots": [{
+            " _id": "1",
+            "name": "Plot 1",
+            "location": "Kasarani",
+            "rooms": [{
+                "name": "room 1",
+                "_id": "11"
+            }, {
+                "name": "room 2",
+                "_id": "12"
+            }, {
+                "name": "room 3",
+                "_id": "12"
+            }, {
+                "name": "room 4",
+                "_id": "13"
+            }]
+        }, {
+            " _id": "2",
+            "name": "Plot 2",
+            "location": "Westlands",
+            "rooms": [{
+                "name": "room 1",
+                "_id": "21"
+            }, {
+                "name": "room 2",
+                "_id": "22"
+            }, {
+                "name": "room 3",
+                "_id": "23"
+            }, {
+                "name": "room 4",
+                "_id": "24"
+            }]
+        }, {
+            " _id": "3",
+            "name": "Plot 3",
+            "location": "Kahawa",
+            "rooms": [{
+                "name": "room 1",
+                "_id": "31"
+            }, {
+                "name": "room 2",
+                "_id": "32"
+            }, {
+                "name": "room 3",
+                "_id": "33"
+            }, {
+                "name": "room 4",
+                "_id": "34"
+            }]
+        }],
+        "rooms": [{
+            "_id": "11",
+            "plot_name": "Plot 1",
+            "plot_id": "1",
+            "name": "room 1",
+            "rent": 4500,
+            "isOccupied": false,
+            "owner": {
+                "name": "Clinton Omondi",
+                "phone": "0723127994"
+            }
+        }, {
+            "_id": "12",
+            "plot_name": "Plot 1",
+            "plot_id": "1",
+            "name": "room 2",
+            "rent": 4500,
+            "isOccupied": true,
+            "owner": {
+                "name": "Clinton Omondi",
+                "phone": "0723127994"
+            }
+        }, {
+            "_id": "13",
+            "plot_name": "Plot 1",
+            "plot_id": "1",
+            "name": "room 3",
+            "rent": 4500,
+            "isOccupied": true,
+            "owner": {
+                "name": "Clinton Omondi",
+                "phone": "0723127994"
+            }
+        }, {
+            "_id": "14",
+            "plot_name": "Plot 1",
+            "plot_id": "1",
+            "name": "room 4",
+            "rent": 4500,
+            "isOccupied": false,
+            "owner": {
+                "name": "Clinton Omondi",
+                "phone": "0723127994"
+            }
+        }, {
+            "_id": "21",
+            "plot_name": "Plot 2",
+            "plot_id": "2",
+            "name": "room 1",
+            "rent": 4500,
+            "isOccupied": false,
+            "owner": {
+                "name": "Clinton Omondi",
+                "phone": "0723127994"
+            }
+        }, {
+            "_id": "22",
+            "plot_name": "Plot 2",
+            "plot_id": "2",
+            "name": "room 2",
+            "rent": 4500,
+            "isOccupied": true,
+            "owner": {
+                "name": "Clinton Omondi",
+                "phone": "0723127994"
+            }
+        }, {
+            "_id": "23",
+            "plot_name": "Plot 2",
+            "plot_id": "2",
+            "name": "room 3",
+            "rent": 4500,
+            "isOccupied": false,
+            "owner": {
+                "name": "Clinton Omondi",
+                "phone": "0723127994"
+            }
+        }, {
+            "_id": "24",
+            "plot_name": "Plot 2",
+            "plot_id": "2",
+            "name": "room 4",
+            "rent": 4500,
+            "isOccupied": true,
+            "owner": {
+                "name": "Clinton Omondi",
+                "phone": "0723127994"
+            }
+        }]
+    },
+    "calendar_events": {
+        "rents": [{
+                " _id": "ren1",
+                "plot_id": "someid",
+                "plot_name": "Kahawa Greens",
+                "amount": 2400,
+                "balance": 4000,
+                "rent": 5300,
+                "day": 21,
+                "month": 6,
+                "year": 2021
+            },
+            {
+                " _id": "ren2",
+                "plot_id": "someid",
+                "plot_name": "Garden Estate",
+                "amount": 1600,
+                "balance": 4000,
+                "rent": 9300,
+                "day": 21,
+                "month": 6,
+                "year": 2021
+            },
+            {
+                " _id": "required-id-3gg",
+                "plot_id": "someid",
+                "plot_name": "Ruai",
+                "amount": 5500,
+                "balance": 4000,
+                "rent": 5500,
+                "day": 21,
+                "month": 6,
+                "year": 2021
+            },
+            {
+                " _id": "required-id-sgjl",
+                "plot_id": "someid",
+                "plot_name": "Westlands",
+                "amount": 5500,
+                "balance": 4000,
+                "rent": 5500,
+                "day": 21,
+                "month": 6,
+                "year": 2021
+            },
+            {
+                " _id": "required-id-sgjs",
+                "plot_id": "someid",
+                "plot_name": "Muthaiga Square",
+                "amount": 4500,
+                "balance": 4000,
+                "rent": 4500,
+                "day": 21,
+                "month": 6,
+                "year": 2021
+            }
+        ]
+    }
+}
